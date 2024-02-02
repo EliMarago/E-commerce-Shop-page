@@ -1,0 +1,154 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap');
+
+body
+{
+    margin: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 225, 225);
+     
+}
+
+.container
+{
+    height: 720px;
+    width: 500px;
+    background: rgb(255,255,255);
+background: linear-gradient(10deg, rgba(255,255,255,1) 20%, rgb(191, 16, 16) 4%, rgb(211, 57, 57) 60%, rgb(176, 31, 31) 69%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px 25px 25px 25px ;
+    margin-left: 10vh;
+    margin-top: 50px;
+}
+img
+{
+    border-radius: 25px 25px 25px 25px;
+
+}
+p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;   
+
+}
+.title
+{
+    font-size: 34px;
+    color: white;
+    font-weight: 800px;
+    position: relative;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.price
+
+{
+    font-size: 25px;
+    color: white;
+    font-weight: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.product-intro__color_choose .blue
+{
+    width: 25px;
+    height: 25px;
+    background: rgb(43, 43, 211);
+    border-radius: 50%;
+    margin-left: 55px;
+
+  
+}
+.blue:hover{
+    border: 1.5px white solid;
+}
+.product-intro__color_choose  .black
+{
+    width: 25px;
+    height: 25px;
+    background: rgb(23, 22, 22);
+    border-radius: 50%;
+    position:relative;
+    margin-left: 90px;
+    bottom: 25px;
+}
+
+.black:hover{
+    border: 1.5px white solid;
+}
+.product-intro__color_choose  .white
+{
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 95px;
+    position:relative;
+    margin-left: 125px;
+    bottom: 50px;
+    
+}
+
+.white:hover{
+    border: 1.5px rgb(202, 200, 200) solid;
+    
+}
+
+.product-intro__color_choose  .red
+{
+    width: 25px;
+    height: 25px;
+    background: #bf1919;
+    border-radius: 50%;
+    margin-left: 95px;
+    position:relative;
+    margin-left: 160px;
+    bottom: 76px;
+    border: 1.5px rgb(255, 255, 255) solid;
+    
+}
+
+.red:hover{
+    border: 1.5px rgb(255, 255, 255) solid;
+    background-color: #a30c0c;
+    
+}
+
+button
+{
+    width:110px;
+    height: 40px;
+    border: none;
+    border-radius: 30px 30px 30px;
+    color: #ffffff;
+    background-color:#bf1919;
+    border: solid white 2px;
+    position: relative;
+    margin-left: 70px;
+    bottom: 60px;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: #830c0c;
+}
+.description
+{
+    font-size: 14px;
+    color: rgb(88, 17, 17);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.bx-cart-add
+{
+    position: relative;
+bottom: 20px;
+  margin-left: 110px;
+  width: 30px;
+  height: 30px;
+}
